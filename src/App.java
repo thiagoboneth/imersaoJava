@@ -8,6 +8,7 @@ import java.net.http.HttpResponse.BodyHandlers;
 import java.util.List;
 import java.util.Map;
 
+import service.GeradorDeFigurinhas;
 import service.JsonParse;
 
 public class App {

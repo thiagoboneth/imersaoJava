@@ -1,3 +1,4 @@
+package service;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -10,7 +11,7 @@ import javax.imageio.ImageIO;
 public class GeradorDeFigurinhas {
     
 
-    void cria(InputStream inputStream, String nomeArquivo, String nomeFilme) throws Exception{
+    public void cria(InputStream inputStream, String nomeArquivo, String nomeFilme) throws Exception{
 
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
 
